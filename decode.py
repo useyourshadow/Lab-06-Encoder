@@ -1,3 +1,4 @@
+#Daniel Hernandez
 def decode(password):
     decoded_password = ''
     for character in password:
