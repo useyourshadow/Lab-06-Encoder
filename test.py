@@ -1,4 +1,6 @@
 
+
+from decode import *
 def Encoder(password):
     string= ''
     list = []
@@ -32,6 +34,6 @@ Please enter an option:''')
         print(str(Password))
     if Choice == '2':
         encoded = Encoder(Password)
-        print("Encoded password is" , (encoded) + ", and the original password is ", (Password))
+        print("Encoded password is", encoded + ", and the original password is", (decode(encoded)))
     if Choice == '3':
         break
