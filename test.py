@@ -10,9 +10,9 @@ def Encoder(password):
     for digit in list:
         if digit == '9':
             string += '2'
-        if digit == '8':
+        elif digit == '8':
             string += '1'
-        if digit == '7':
+        elif digit == '7':
             string += '0'
         else:
             string += str(int(digit)+3)
